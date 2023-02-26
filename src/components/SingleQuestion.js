@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { TfiAngleDoubleDown, TfiAngleDoubleUp } from "react-icons/tfi";
 
-const singleQuestion = ({ question, answer }) => {
+const SingleQuestion = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   return (
@@ -13,9 +13,15 @@ const singleQuestion = ({ question, answer }) => {
           {showAnswer ? <TfiAngleDoubleDown /> : <TfiAngleDoubleUp />}
         </button>
       </header>
-      {showAnswer && <p>{answer}</p>}
+
+      {showAnswer && (
+        <p>
+          <hr />
+          {answer}
+        </p>
+      )}
     </article>
   );
 };
 
-export default singleQuestion;
+export default SingleQuestion;

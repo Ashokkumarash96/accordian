@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+  background-color: darkgray;
+  color: lightslategray;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body {
+  font-family: 'Mynerve', cursive;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.info {
+  border-radius: 10px;
+  width: 30rem;
+  padding: 1rem;
+  background-color: white;
+  text-align: justify;
+
+}
+
+article {
+  border-radius: 10px;
+  border: solid black 2px;
+  margin-bottom: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: 'Tilt Prism', cursive;
+  font-size: xx-large;
+}
+
+h4 {
+  margin: 10px 0 5px 10px;
+}
+
+
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 10px 25px 5px 10px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+}

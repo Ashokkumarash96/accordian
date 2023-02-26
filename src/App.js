@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
-import singleQuestion from "./components/SingleQuestion";
+import SingleQuestion from "./components/SingleQuestion";
 
 const App = () => {
   const [questions, setQuestions] = useState(data);
@@ -10,8 +10,8 @@ const App = () => {
       <div className='info'>
         <h3> Frequently Asked Questions</h3>
         <section className='info'>
-          {questions.map((questions) => {
-            return <singleQuestion key={questions.key} {...questions} />;
+          {questions.map((question) => {
+            return <SingleQuestion key={questions.id} {...question} />;
           })}
         </section>
       </div>
