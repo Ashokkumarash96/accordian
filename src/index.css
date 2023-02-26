@@ -7,6 +7,8 @@ body {
   color: lightslategray;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-top: 5rem;
+  font-size: 20px;
 }
 
 body {
@@ -19,11 +21,10 @@ body {
 
 div.info {
   border-radius: 10px;
-  width: 30rem;
+  width: 35rem;
   padding: 1rem;
   background-color: white;
   text-align: justify;
-
 }
 
 article {
@@ -35,7 +36,6 @@ article {
 header {
   display: flex;
   justify-content: space-between;
-
 }
 
 h3 {
@@ -58,4 +58,14 @@ p {
 .btn {
   background-color: white;
   border: none;
+  font-size: 25px;
+  color: lightslategray;
+  padding-left: 10px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: lightslategray;
+
+
 }
